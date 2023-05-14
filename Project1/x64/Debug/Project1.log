@@ -1,0 +1,37 @@
+﻿  main.cpp
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classCoin.h(12,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classCoin.h(19,27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classCoin.h(19,22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classCloud.h(27,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(89,48): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(113,37): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(117,37): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(145,36): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(150,36): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(155,36): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\Project1\classFreeFall.h(160,36): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Project1.vcxproj -> C:\Users\Użytkownik\Desktop\programowanie\pou games\free_fall\Project1\x64\Debug\Project1.exe
