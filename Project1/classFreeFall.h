@@ -62,7 +62,19 @@ public:
             while (window->pollEvent(e))
             {
                 if (e.type == sf::Event::Closed)
-                    window->close();
+		{
+		     window->close();
+		     delete window;
+                     delete icon;
+                     for (auto& c : clouds)
+                     {
+                         delete c;
+                     }
+                     clouds.clear();
+                     delete pou;
+                     return;
+		}
+                    
             }
             clock();
             render();   
@@ -79,6 +91,15 @@ public:
                 LPCSTR lpcstr = static_cast<LPCSTR>(str.c_str());
                 bool accept = MessageBoxA(NULL, lpcstr,"You have lost" , MB_OK);
                 window->close();
+		delete window;
+                delete icon;
+                for (auto& c : clouds)
+                   {
+                       delete c;
+                   }
+                clouds.clear();
+                delete pou;
+                return;
             }
 
         }
