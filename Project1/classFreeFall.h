@@ -108,7 +108,7 @@ public:
     void clock()
     {
         time = score.getElapsedTime().asSeconds();
-        label = " Score: " + std::to_string(time) + " \n         " + std::to_string(coins) + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhits: " + std::to_string(hits)+"/5";
+        label = " Score: " + std::to_string(time) + " \n         " + std::to_string(coins) + "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHits: " + std::to_string(hits)+"/5";
         text.setString(label);
     }
     void render()
