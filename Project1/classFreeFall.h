@@ -170,16 +170,6 @@ public:
         {
             newPosition.x += speed * pou->deltaTime;
         }
-
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))
-        {
-            newPosition.y -= speed * pou->deltaTime;
-        }
-
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))
-        {
-            newPosition.y += speed * pou->deltaTime;
-        }
         if(newPosition.x > 0 && newPosition.x < 510) pou->sprite.setPosition(newPosition);
     }
     void collisions()
