@@ -170,7 +170,16 @@ public:
         {
             newPosition.x += speed * pou->deltaTime;
         }
-        if(newPosition.x > 0 && newPosition.x < 510) pou->sprite.setPosition(newPosition);
+        
+	if (newPosition.x < 0)
+        {
+            newPosition.x = 550;
+        }
+        if (newPosition.x > 550)
+        {
+            newPosition.x = 0;
+        }
+        pou->sprite.setPosition(newPosition);
     }
     void collisions()
     {
